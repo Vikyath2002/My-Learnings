@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikyath's Personal Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+    <!-- Header Section -->
+    <header class="bg-primary text-white py-5">
+        <div class="container text-center">
+            <h1 class="display-4">Welcome to Vikyath's Website</h1>
+            <p class="lead">A place to explore my work and interests.</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="my-5 ">
+        <div class="container">
+            <h2 class="text-center text-primary">About Vikyath</h2>
+            <p class="lead text-center">
+                Hello! I'm Vikyath, a passionate developer interested in creating dynamic web applications. I specialize in front-end technologies like HTML, CSS, and JavaScript, and I'm constantly learning new skills to stay up-to-date with the latest trends in web development.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="my-5 bg-primary">
+        <div class="container">
+            <h2 class="text-center text-primary">Skills</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-primary">HTML & CSS</h5>
+                            <p class="card-text">Creating well-structured and responsive web pages using HTML5 and CSS3.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-primary">JavaScript</h5>
+                            <p class="card-text">Building dynamic and interactive websites with JavaScript.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-primary">React.js</h5>
+                            <p class="card-text">Developing fast, scalable user interfaces with React.js.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="my-5">
+        <div class="container">
+            <h2 class="text-center text-primary">My Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Resume Builder</h5>
+                            <p class="card-text">A Resume based management web app built with HTML, CSS, and JavaScript.</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#projectModal1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Personal Portfolio</h5>
+                            <p class="card-text">A portfolio website built with React.js.</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#projectModal2">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Gymify Project</h5>
+                            <p class="card-text">A android app fitness based management features.</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#projectModal3">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="my-5 bg-light">
+        <div class="container">
+            <h2 class="text-center text-primary">Contact Me</h2>
+            <form>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-primary text-white py-4 text-center">
+        <p>&copy; 2025 Vikyath. All rights reserved.</p>
+    </footer>
+
+    <!-- Modals -->
+    <div class="modal fade" id="projectModal1" tabindex="-1" role="dialog" aria-labelledby="projectModal1Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal1Label">Resume Builder webpage Project Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>This Resume builder webpage  helps users to build unique resumes . It is built with HTML, CSS, and  JavaScript.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="projectModal2" tabindex="-1" role="dialog" aria-labelledby="projectModal2Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal2Label">Personal Portfolio Project Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>This is a personal portfolio website built with React.js that showcases my skills, projects, and experiences in a clean and modern layout.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="projectModal3" tabindex="-1" role="dialog" aria-labelledby="projectModal3Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal3Label">Gymify Project Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>This App includes a fitness management system (CMS) for building and cutting Muscles. It allows easy diet and supplement idea posts.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.5/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
